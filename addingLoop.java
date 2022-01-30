@@ -8,7 +8,7 @@ public class addingLoop {
 
         System.out.println("Enter Number between 1-20 : "); // Asking user to enter number between 1-20
         int num=sc.nextInt();
-
+//this is hwere the while loop starts
 
         while(!(num>1 && num<20))  // Checking if number is not within the expected range of 1-20
 
@@ -18,7 +18,7 @@ public class addingLoop {
 
         }
            // if the number is between 1-20
-
+//the for loop is only with 1 through 20!!!!
                 for(int i=1;i<=num;i++)  // Iterating from 1 till the entered number
                 {
                         sum=sum+i; // Adding every number from 1 to the entered number
